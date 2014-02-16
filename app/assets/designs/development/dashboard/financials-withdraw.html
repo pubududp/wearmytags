@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wear My Tags - Dashboard</title>
+
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <!-- typekit -->
+	<script type="text/javascript" src="//use.typekit.net/qgp3uvx.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <link href="../assets/css/dashboard.css" rel="stylesheet">
+
+    <link href="../assets/css/main-responsive.css" rel="stylesheet">
+
+    <!--<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>-->
+	<!--<script type="text/javascript" src="../assets/js/responsiveCarousel.js"></script>-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  	<!-- *** script to show/hide sub menu items on HOVER **** -->
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	   
+	    $('#contests, .sub-menu-1').hover(function() {
+	        $('.container-fluid .sub-menu-1').show();
+	    }, function() {
+	        $('.container-fluid .sub-menu-1').hide();
+	    });
+	     $('#produce, .sub-menu-2').hover(function() {
+	        $('.sub-menu-2').show();
+	    }, function() {
+	        $('.sub-menu-2').hide();
+	    });
+	     $('#funding, .sub-menu-3').hover(function() {
+	        $('.sub-menu-3').show();
+	    }, function() {
+	        $('.sub-menu-3').hide();
+	    });
+	     $('#sell, .sub-menu-4').hover(function() {
+	        $('.sub-menu-4').show();
+	    }, function() {
+	        $('.sub-menu-4').hide();
+	    });    
+	});
+	</script>
+
+	<!-- ######################## HEADER for Mobile Devices [start] ################## -->
+	<div id="header" class="visible-xs">
+		<div class="container">
+			<div class="row">
+
+				<!-- logo -->
+				<div class="col-sm-12 logo"><a href="#"><img src="../assets/img/logo.png" /></a></div>
+
+			</div>
+		</div>
+	</div>
+	<!-- ######################## HEADER for Mobile Devices [end] ################## -->
+
+	<!-- ######################## HEADER for Desktop/ Large Screens [start] ################## -->
+	<div id="header" class="hidden-xs">
+		<div class="container">
+			<div class="row">
+
+				<!-- logo -->
+				<div class="col-lg-4 col-sm-4 logo"><a href="#"><img src="../assets/img/logo.png" /></a></div>
+
+				<!-- user menu -->
+				<div class="col-lg-8 col-sm-8 users">
+					<ul class="nav nav-pills navbar-right">
+				        <li class="dropdown">
+				          <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+				            <img src="../assets/img/user.png" align="absmiddle" /> artstudios <span class="caret"></span>
+				          </a>
+				          <ul role="menu" class="dropdown-menu">
+				            <li><a href="#">My Profile</a></li>
+				            <li><a href="#">Settings</a></li>
+				            <li><a href="#">Membership</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Sign out</a></li>
+				          </ul>
+				        </li>
+				        <li><a href="#">inbox (9)</a></li>
+
+				        <li><a href="#"><img src="../assets/img/uico-3.png" /> <span class="count red">9</span></a> </li>
+				        <li class="dropdown">
+				        	<a href="#" data-toggle="dropdown" class="dropdown-toggle"><img src="../assets/img/uico-1.png" /> <span class="count red">4</span></a>
+					          <ul role="menu" class="dropdown-menu expanded">
+					          	<div class="pointer"></div>
+					            <div class="col-lg-12 col-sm-12 notifications"><!-- notifications -->
+					            	<h5>Notifications</h5>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><img src="../assets/img/notify-profile.png" /></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">You</a> have reached level 3!</h1>
+												<h2>48mins</h2>
+											</div><!-- notice -->
+										</div>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><img src="../assets/img/notify-profile.png" /></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">You</a> added a design to your folio</h1>
+												<h2>49mins</h2>
+											</div><!-- notice -->
+										</div>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><img src="../assets/img/notify-profile.png" /></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">You</a> submitted you first design entry</h1>
+												<h2>52mins</h2>
+											</div><!-- notice -->
+										</div>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><img src="../assets/img/notify-profile-2.png" /></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">John</a> commented of <a href="#">your design page</a></h1>
+												<h2>53mins</h2>
+											</div><!-- notice -->
+										</div>
+									<h4><a href="#">See all notifications</a></h4>
+					            </div>
+
+					          </ul>
+				        </li>
+
+				        <li class="dropdown">
+				        	<a href="#" data-toggle="dropdown" class="dropdown-toggle"><img src="../assets/img/uico-2.png" /> <span class="count red">2</span></a>
+					          <ul role="menu" class="dropdown-menu expanded">
+					          	<div class="pointer"></div>
+					            <div class="col-lg-12 col-sm-12 notifications cart"><!-- shopping cart -->
+					            	<h5>My Cart</h5>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><a href="#"><img src="../assets/img/contest-4.jpg" /></a></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">Sed Utesp</a> <a href="#"><span class="label label-default remove">X</span></a></h1>
+												<h3><span class="label label-info">5 X $20.00</span></h3>
+											</div><!-- notice -->
+										</div>
+										<div class="row">
+											<div class="col-lg-3 col-sm-3"><a href="#"><img src="../assets/img/contest-5.jpg" /></a></div>
+											<div class="col-lg-9 col-sm-9 notify-updates">
+												<h1><a href="#">Lorem ipsum</a> <a href="#"><span class="label label-default remove">X</span></a></h1>
+												<h3><span class="label label-info">1 X $300.00</span></h3>
+											</div><!-- notice -->
+										</div>
+										<p class="textright"><a href="#" class="btn orange-2">checkout</a></p>
+					            </div>
+
+					          </ul>
+				        </li>
+				    </ul>
+				</div>
+				
+				<!-- main navigation -->
+				<div class="col-lg-8 col-sm-8">
+					<div id="navigation">
+				        <div id="main-nav">
+				            <div id="contests"><a href="#">Contests</a></div>
+				            <div id="produce"><a href="#">Produce</a></div>
+				            <div id="sell"><a href="#">Sell</a></div>
+				        </div>
+				    </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid"> <!-- for desktop/ large screen -->
+		<div id="sub-nav"> 
+	        <ul class="sub-menu-1 menu-holder">
+	            <li><a href="#">Browse Categories</a></li>
+	            <li><a href="#">How it works</a></li>	            
+	            <li><a href="#">Pricing </a></li>
+	            <li><a href="#">Testimonials</a></li>
+	        </ul>
+	        <ul class="sub-menu-2 menu-holder">
+	            <li><a href="#">Produce 1</a></li>
+	            <li><a href="#">Produce 2</a></li>
+	            <li><a href="#">Produce 3</a></li>
+	            <li><a href="#">Produce 4</a></li>
+	            <li><a href="#">Produce 5</a></li>
+	            <li><a href="#">Produce 6</a></li>
+	        </ul>
+	        <ul class="sub-menu-3 menu-holder">
+	            <li><a href="#">Funding 1</a></li>
+	            <li><a href="#">Funding 2</a></li>
+	            <li><a href="#">Funding 3</a></li>
+	            <li><a href="#">Funding 4</a></li>
+	        </ul>
+	        <ul class="sub-menu-4 menu-holder">
+	            <li><a href="#">Sell 1</a></li>
+	            <li><a href="#">Sell 2</a></li>
+	            <li><a href="#">Sell 3</a></li>
+	            <li><a href="#">Sell 4</a></li>
+	        </ul>
+		</div>
+	</div>
+	<!-- ######################## HEADER  for Desktop/ Large Screens  [end] ################## -->
+
+
+	<!-- ######################## FEATURED SECTION ################## -->
+	<div id="dashboard">
+		<div class="container">
+			<div class="row home">
+
+				<div class="col-lg-3 left-panel">
+					<h1>Dashboard</h1>
+
+					<div class="panel-group" id="accordion"><!-- dashboard menu Starts -->
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					        <a href="index.html">
+					          <h4 class="panel-title">Overview</h4>
+					        </a>
+					    </div>
+					  </div>
+
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					        <a href="inbox.html">
+					          <h4 class="panel-title">Inbox</h4>
+					        </a>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading have-sub">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+					          <h4 class="panel-title">Contest</h4>
+					        </a>
+					    </div>
+					    <div id="collapseOne" class="panel-collapse collapse">
+					      <div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+						        <li><a href="contest-my-contests.html">My Contests</a></li>
+						        <li><a href="contest-my-profile.html">My Profile</a></li>
+						        <li><a href="contest-my-portfolio.html">My Portfolio</a></li>
+						    </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading have-sub">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+					          <h4 class="panel-title">Produce</h4>
+					        </a>
+					    </div>
+					    <div id="collapseTwo" class="panel-collapse collapse">
+					      <div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+						        <li><a href="produce-my-jobs.html">My Jobs</a></li>
+						        <li><a href="produce-my-profile.html">My Profile</a></li>
+								<li><a href="produce-add-set.html">Producer Portfolio</a></li>
+						    </ul>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading have-sub">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+					          <h4 class="panel-title">Shop Setup</h4>
+					        </a>
+					    </div>
+					    <div id="collapseThree" class="panel-collapse collapse">
+					      <div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+						        <li><a href="shop-products.html">My Products</a></li>
+						        <li><a href="shop-shipping.html">Add Shipping Methods</a></li>
+						        <li><a href="shop-terms.html">Add Terms</a></li>
+						        <li><a href="shop-store-info.html">Store Info</a></li>
+						        <li><a href="shop-analytics.html">Store Reports</a></li>
+						    </ul>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					        <a href="account-setup.html">
+					          <h4 class="panel-title">Account Setup</h4>
+					        </a>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading have-sub">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+					          <h4 class="panel-title">Financials</h4>
+					        </a>
+					    </div>
+					    <div id="collapseFour" class="panel-collapse collapse in">
+					      <div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+						        <li><a href="financials-accounts.html">Financial Accounts</a></li>
+						        <li class="active"><a href="financials-withdraw.html">Widthdraw Funds</a></li>
+						        <li><a href="financials-transactions.html">Transaction History</a></li>
+						    </ul>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading have-sub">
+					        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+					          <h4 class="panel-title">My Closet</h4>
+					        </a>
+					    </div>
+					    <div id="collapseFive" class="panel-collapse collapse">
+					      <div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+						        <li><a href="closet-manager.html">Closet Manager</a></li>
+						        <li><a href="closet-wishlist.html">My Wishlist</a></li>
+						    </ul>
+					      </div>
+					    </div>
+					  </div>
+
+					</div>
+				</div><!-- dashboard menu ends -->
+
+				<div class="col-lg-9 right-panel">
+					<h1>Withdraw Funds</h1>
+					<div class="row content">
+						<div class="col-lg-12">
+
+							<h6>Use this page to withdraw funds from your account. For withdrawal options and processing times <a href="#" style="color: #1A90B2;">click here</a>.</h6>
+
+							<div class="row">
+								<div class="col-lg-5">
+									<h4>Account Number</h4>
+								</div>
+								<div class="col-lg-7">
+									<p style="margin-left:-20px;">WMT10834343499</p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-5">
+									<h4>Withdrawal Method</h4>
+								</div>
+								<div class="col-lg-7">
+									<select class="form-control">
+										<option>SAVINGS#6400 (USD)</option>
+									</select>
+									<br /><small>Recently added withdrwals method may take upto 5 days to process and will not appear in the dropdown menu untilprocessing is complete.</small>
+								</div>
+							</div>
+
+							<br />
+							<table width="100%" class="table-bordered table-striped manage-category inbox">
+								
+								<tr>
+									<td>Available Balance</td>
+									<td>US $</td>
+									<td class="text-right">10000.00</td>
+								</tr>
+
+								<tr>
+									<td><h4>Withdrawal Amount<h4></td>
+									<td>US $</td>
+									<td class="centered"><input type="text" class="form-control" /></td>
+								</tr>
+
+								<tr>
+									<td>Processing Fee</td>
+									<td>US $</td>
+									<td class="text-right">25.00</td>
+								</tr>
+
+								<tr>
+									<td>New Balance</td>
+									<td>US $</td>
+									<td class="text-right red">9975.00</td>
+								</tr>
+
+							</table>
+
+							<h3 class="upload text-right">
+								<a class="btn btn-smaller green" href="#">Withdraw</a>
+								<a class="btn btn-smaller lightgray" href="#">Cancel</a>
+							</h3>
+
+
+						</div>
+					</div>
+				</div>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+
+
+	<!-- ######################## FOOTER SECTION ################## -->
+	<!-- FOOTER NEWSLETTER -->
+	<div id="newsletter">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4"><h1>Subscribe to our Newsletter</h1></div>
+				<div class="col-lg-4 newsletter-form">
+				    <div class="input-group">
+				      <input type="text" class="form-control" placeholder="Your E-mail" /> 
+				      <span class="input-group-btn">
+				        <button class="btn btn-default go" type="button">OK</button>
+				      </span>
+				    </div>
+				</div>
+				<div class="col-lg-4 textright social">
+					<a href="#" class="facebook"></a> <a href="#" class="twitter"></a> <a href="#" class="pinterest"></a> <a href="#" class="googleplus"></a> <a href="#" class="rss"></a>
+				</div>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+	<!-- fOOTER NEWSLETTER -->
+
+	<!-- FOOTER LARGE -->
+	<div id="footer-large">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<h1>Wear My Tags</h1>
+					<p>
+						<ul>
+							<li><a href="#">Home</a>
+							<li><a href="#">Contest</a>
+							<li><a href="#">Manufacturer</a>
+							<li><a href="#">Sell</a>
+							<li><a href="#">Fund</a>
+							<li><a href="#">Blog</a>
+						</ul>
+					</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h1>Customer Services</h1>
+					<p>
+						<ul>
+							<li><a href="#">Home</a>
+							<li><a href="#">Contest</a>
+							<li><a href="#">Manufacturer</a>
+							<li><a href="#">Sell</a>
+							<li><a href="#">Fund</a>
+							<li><a href="#">Blog</a>
+						</ul>
+					</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h1>Wear My Tags</h1>
+					<p>
+						<ul>
+							<li><a href="#">Home</a>
+							<li><a href="#">Contest</a>
+							<li><a href="#">Manufacturer</a>
+							<li><a href="#">Sell</a>
+							<li><a href="#">Fund</a>
+							<li><a href="#">Blog</a>
+						</ul>
+					</p>
+				</div>
+
+				<div class="col-lg-3">
+					<h1>Wear My Tags</h1>
+					<p>
+						<ul>
+							<li><a href="#">Home</a>
+							<li><a href="#">Contest</a>
+							<li><a href="#">Manufacturer</a>
+							<li><a href="#">Sell</a>
+							<li><a href="#">Fund</a>
+							<li><a href="#">Blog</a>
+						</ul>
+					</p>
+				</div>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+	<!-- FOOTER LARGE -->
+	
+	
+	<!-- FOOTER COPYRIGHT -->
+	<div id="copyright">
+		<div class="container">
+			<div class="row centered">
+				&copy; <a href="#">Wear My Tags</a> | All rights reserved.
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>
+	<!-- fOOTER COPYRIGHT -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>-->
+  </body>
+</html>
