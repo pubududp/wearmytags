@@ -1,0 +1,621 @@
+/* ############ RESPONSIVE VIEW ################ */
+
+
+@media only screen and (max-width: 768px) {
+
+    .btn {margin: 20px 0;}
+
+    #header .logo {text-align: center; padding: 10px 0; background: #f7f7f7;}
+
+    #header .users ul {float: right; padding: 10px 0;}
+
+    .users .nav {border-bottom: 0;}
+
+    #headerwrap h1 {font-size: 2em; margin-top: 70px !important;}
+
+    #headerwrap h2 {margin-top: -10px;}
+
+    #featured h1 {font-size: 2.15em;}
+    
+    #featured img {margin-top: 20px;}
+
+    .btn.blue {display: block;}
+
+    #platform h1 {margin-top: 0;}
+
+    #services .testimonial {margin-left: 5px; margin-right: 5px;}
+
+    #services .listing h1 {margin: 0 auto;}
+
+    #services .listing h2, #services .listing p {text-align: center;}
+
+    /*#services .btnblock .btn {max-width: 65%;}
+
+    #services .btnblock p a {margin: 0 auto !important; position: absolute; right: 0; left:0;} */
+
+    .designs .basket {width: 100%; background-position: center;}
+
+    .designs .basket:hover {width: 100%; background-position: center;}
+
+    .designs .item-pic {width: 100%;}
+
+    .btn.gray {display: block; border-bottom: 1px solid #dedede;}
+
+    #portfolio .designs {max-width: 100%; text-align: center; padding-bottom: 10px; min-height: 230px;}
+
+    #portfolio .mob-title {font-size: 1.25em;}
+
+    #portfolio p.text-right {text-align: center;}
+
+    .designs h1, .price, .textright {text-align: center;}
+
+    .designs h1 {font-size: 0.82em;}
+
+    #newsletter h1 {line-height: 20px; text-align: left;}
+
+    #footer-scroll .large-slider .large-slider-content {margin-top: 0; padding: 5px 10px; background: #f8f8f8;}
+
+    #footer-scroll .large-slider h1 {font-size: 1.35em;}
+
+    #getstarted .scroll-item {
+        min-width: auto;
+        min-height: auto;
+    }
+
+    #getstarted .scroll-content {
+        min-width: auto;
+        min-height: auto;
+    }
+
+    #getstarted .category .dropdown-menu.expanded li {
+        padding: 3px;
+    }
+
+    #getstarted .category .dropdown-menu.expanded li:hover {
+        background: #61c5df;
+        color: #fff;
+    }
+
+    #getstarted .category .dropdown-menu.expanded a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    /* inner */
+    .login-form {margin: 0 5px; padding: 25px;}
+
+    .login-form .content {padding: 0;}
+
+
+    .login-form .socialconnect {margin-top: 20px; padding-top: 20px;}
+
+    .login-form .text-right {text-align: left;}
+
+    .login-form .blue {text-align: center; font-size: 1.15em !important;}
+
+    .login-form .text-right {text-align: center;}
+
+    /*.login-form .btn.orange, .login-form .btn.green {padding: 15px 115px;} */
+
+    .form-control {width: 96%;}
+
+    #inner-block.login .container {margin: 0 10px;}
+    .btn.facebook {
+        padding: 10px;
+        font-size: 0.88em;
+        min-width: 260px;
+    }
+    
+    #inner-banner,  #inner-banner-2, #inner-banner.manufacture {padding-top: 20px; padding-bottom: 0;}
+    #inner-banner.manufacture {padding-top: 10px;}
+
+    .btn.btn-smaller {width: auto;}
+    .banner h1, .banner p {text-align: center;}
+    .category-bar {margin: 20px !important; margin-top: -40px !important;}
+    .contest-lists .col-lg-1, .contest-lists .col-lg-2, .contest-lists .col-lg-11 {float: left; padding: 5px 10px;}
+    .contest-lists p span {font-size: 1.30em;}
+    .contest-entires-top .entry-details h1 {margin-top: 10px;}
+    .contest-entires-top .entry-details .legends {display: inline-block; float: left; margin-top: 10px; font-size: 1.15em;}
+
+    .contest-holder img {margin-left: 10px; margin-bottom: 10px;}
+    .discuss h1 {margin-left: 10px;}
+    .contests-discuss .contest-lists h1 {margin-left: 0;}
+    .contests-discuss .contest-lists {border: 1px solid #e7e7e7;}
+    .contests-discuss .contest-lists .col-lg-1, .contests-discuss .contest-lists .col-lg-11, .contests-discuss .contest-lists .col-lg-10 {
+        border-top: 0;
+        padding: 10px;
+    }
+
+    .contests-discuss .contest-lists h1 span {padding: 0}
+    .contests-discuss .contest-lists {border: 0;}
+    
+    .contests-discuss .mob-discuss {border-top: 1px solid #d9d9d9; margin-top: 10px;}
+
+
+    #myTab li {display: block;width: 100%;}
+    #myTab li a  {padding: 10px;}
+    #myTab .active a {border-bottom: 1px solid #999; border-left: 0; border-right: 0; border-top: 0;}
+
+    .tab-content .designers.watchers .text-right {text-align: left; margin-left: -10px;}
+
+    .tab-content .entry {width: 90%;}
+
+    .tab-container .nav > li > a {background: #fff; border: 1px solid #dedede; border-radius: 0;}
+
+    .contestdetails p, .contestdetails h1 , .rating {text-align: left; padding: 0;}
+
+    .contest-holder.detailsview textarea {max-width: 90%;}
+
+    .launch-contest h1, .upload-contest .maintitle {text-align: left; font-size: 1.35em;}
+
+    .upload-contest .subtitle {text-align: left; font-size: 1.25em; line-height: 24px; margin-top: 35px;}
+
+    .upload-contest .subcategory li a {font-size: 1em;}
+
+    .upload-contest .subcategory {margin: 0 0 0 -55px;}
+
+    .upload-contest .text-right {text-align: left; margin-left: -10px;}
+
+    .upload-contest h2 {font-size: 1.25em;}
+
+    .upload-contest .content {margin-left: 0;}
+
+    .upload-contest .tagprice h4 {font-size: 1.25em;}
+
+    .btn.step-prev, .btn.step-next , .btn.step-pay, .btn.step-save {min-width: 105px; font-size: 0.96em;}
+
+    .upload-contest input[type="text"], .upload-contest select , .upload-contest .content textarea {min-width: 240px;}
+
+    .recent-wins {padding-bottom: 20px;}
+
+    .crsl-items-portfolio.static .entry {max-width: 250px;}
+
+    #searchbar .btn.go {font-size: 0; height: 42px; padding: 0 10px; background-position: center;}
+
+    #searchbar .btn.go:hover {font-size: 0; height: 42px; padding: 0 10px; background-position: center;}
+
+    #choose-work {padding: 0;}
+
+    #choose-work .container {padding: 5px;}
+
+    #choose-work .text-right {text-align: center;}
+
+    #choose-work h1 {font-size: 1em; text-align: center;}
+
+    #choose-work .work.fund h1 {text-align: left;}
+
+
+    .contest-lists.manufacture-lists {padding: 5px 15px;}
+
+    .contest-lists.manufacture-lists h1 {font-size: 0.88em; margin-top: 5px;}
+
+    .contest-lists.manufacture-lists .talk {padding: 5px; margin: 10px 0;}
+
+    .manufacture-title {margin: 5px 10px; padding-bottom: 10px; font-size: 0.82em; margin-top: -10px;}
+
+    .manufacturelist .search-form input[type="text"] {min-width: 230px;}
+
+    .search-form .form-control {height: 42px;}
+
+    .manufacturelist .search-form select {height: 28px; font-size: 0.88em; margin-bottom: 10px;}
+
+    .manufacturelist .search-links .category {margin-left: 10px;}
+
+    #choose-work .work {max-width: 100%;}
+
+    #choose-work .work .view {display: none !important;}
+
+    #headerwrap.manufacture h1 {margin-top: 30px;}
+
+    #choose-work.fund-detailed {margin: 0 10px; padding: 40px 0;}
+
+    #choose-work.fund-detailed h1, #choose-work.fund-detailed h2 {text-align: left; font-size: 1.25em;}
+
+    #choose-work.fund-detailed p {font-size: 0.78em;}
+
+    #featured.manufacture.fund.detailed {padding-top: 60px;}
+
+    #featured .staffpick .desc.fund-detailed {padding: 0;}
+
+    #featured .staffpick .desc h1 {padding-top: 15px;}
+
+    #featured .staffpick .text-right {text-align: center;}
+
+    #featured.fund .staffpick {margin: 0 10px;}
+
+    #featured .staffpick .desc .mob-stats {font-size: 0.74em; text-transform: uppercase; color: #999;}
+
+    #featured .staffpick .desc .mob-stats b {font-weight: bold; color: #333;}
+
+    #contest-carousel-staffpick .previous, #contest-carousel-staffpick .next {top: 65px;}
+
+    #featured .staffpick .pick {margin-top: -16px;}
+
+    #choose-work .work.fund .work-item img {width: 100%;}
+
+    #choose-work.fund .postproject h2, #footer-scroll.fund .postproject h2 {text-align: center; line-height: 30px;}
+
+    #footer-scroll.fund .postproject .text-right {text-align: center;}
+
+    .manufacture-profile .manufacture-proposal .btn {font-size: 0.74em;}
+
+    .manufacture-desc p span {line-height: 60px;}
+
+    .manufacture-desc .pics img {height: 180px;}
+
+    .applicants {padding: 0;}
+
+    .manufacture-desc .profile-header .price {margin-left: 0;}
+
+    .manufacture-desc .profile-header .price b {font-weight: 700;}
+
+    .manufacturelist .contests .skills {margin-top: 0;}
+
+    .manufacturelist .contests .rate {padding: 5px 10px;}
+
+    .manufacturelist .contests.profile h1, .manufacturelist .contests.profile h2, .manufacturelist .contests.profile p {margin-left: -10px;}
+
+    #choose-work .fund-return .backed .col-lg-3, #choose-work .fund-return .backed .col-lg-9 {float: left;}
+
+    .contest-lists.manufacture-lists.job-details .info {font-size: 0.68em;}
+
+    .contest-lists.manufacture-lists.job-details .line {display: none;}
+
+    .contest-lists.manufacture-lists.job-details .subtitle {line-height: 32px; padding: 0 10px; font-size: 0.88em;}
+
+    .contest-lists.manufacture-lists.job-details .desc {margin: 0;}
+
+    .contest-lists.placejob h1 {padding-top: 5px;}
+
+    .contest-lists.placejob .centered-2 {margin-top: -10px; margin-left: -10px;}
+
+    .contest-lists.placejob {padding-bottom: 0;}
+
+    .contest-lists.placejob p {line-height: 20px;}
+
+    .project-type {font-size: 1em; line-height: 24px; padding: 0 10px;}
+
+    .place-job-form h1, .place-job-form p {margin-left: 15px;}
+
+    .place-job-form input[type="text"], .place-job-form select , .place-job-form textarea {max-width: 280px; margin-left: 15px;}
+
+    .place-job-form .upload {background: none; padding-left: 10px;}
+
+    .agree {padding: 0 10px; line-height: 20px;}
+
+    .post-job {margin-left: 0;}
+
+    #inner-block.manufacture-team {padding: 20px 0; padding-bottom: 40px;}
+
+    .manufacture-tab-content #myTabContent  h2 {padding-top: 20px; margin-bottom: 20px;}
+
+    #contest-profile-header.manufacture-profile .profile-header h2 {padding-bottom: 5px;}
+
+    #contest-profile-header.manufacture-profile .profile-header .meta {line-height: 20px; padding: 0}
+
+    #whattheysay.manufacture-profile .title {margin-top: 10px;}
+
+    #headerwrap.manufacture.sell h1 {font-size: 1.15em; padding-top: 50px;}
+
+    #choose-work.manufacture.shop .work {max-width: 100%; margin: 20px;}
+
+    #choose-work.manufacture.shop.categories {padding-top: 20px;}
+
+    #choose-work.manufacture.shop.seller {padding: 20px 0;}
+
+    #choose-work.manufacture.shop.seller h1, #choose-work.manufacture.shop.seller p {text-align: center;}
+
+    #featured.brands .brand-profile {width: 94%; margin-bottom: 10px;}
+
+    #featured.brands .brand-profile img {width: 100%;}
+
+    #featured.brands .brand-profile h1 {text-align: center;}
+
+    #featured.brands .brand-profile h1 img {display: none;}
+
+    .plan-title {padding-bottom: 0; font-size: 1.25em;}
+
+    .plans > div, .plans > div.premium-plan {min-height: 100% !important;}
+
+    .plans > div .btn {position: relative; margin: auto; left: 0; margin-top: 20px;}
+
+    #featured.my-cart h1 {margin-bottom: 10px;}
+
+    #featured.my-cart .btn.cart {margin-left: 0;}
+
+    #featured.my-cart #exampleInputEmail1 {width: 50%;}
+
+    #headerwrap.manufacture.testimonials h1 {margin-top: 140px;}
+
+    #inner-block.checkout .steps.first, #inner-block.checkout .steps.last {border-radius: 0;}
+
+    .manufacture-checkout .side-box {margin-top: 20px;}
+
+    #choose-work.manufacture.shop.seller .sell-profile img {position: relative; text-align: center; left: 0; margin-top: 0;}
+
+    #featured.four-zero-four h2 {padding: 0 10px;}
+
+    .manufacture-checkout .manufacture-form .checkout-content {margin: 10px; padding: 5px;}
+
+    #choose-work.manufacture.shop.seller.detailed .btn {padding: 14px 20px;}
+
+    #choose-work.manufacture.shop.detailed .rightside h1, #choose-work.manufacture.shop.detailed .rightside p, #choose-work.manufacture.shop.detailed .rightside h2 {
+        text-align: left;
+    }
+
+    #choose-work.manufacture.shop.detailed h4 {text-align: center;}
+
+    #choose-work.manufacture.shop.detailed .rightside p {padding-bottom: 0;}
+
+    #choose-work.manufacture.shop.seller.detailed .btn.btn-smaller {margin-left: 0;}
+
+    #choose-work.manufacture.shop.detailed .rightside .meta {text-align: left; line-height: 32px;}
+
+    #choose-work.manufacture.shop.seller.detailed .sell-thumb img {max-width: 23%;}
+
+    .tab-pane .shop-seller {border: 1px solid #d9d9d9;}
+
+    #choose-work.manufacture.shop.detailed .rightside h1 {padding: 20px 0;}
+
+    #platform {padding-top: 60px !important; padding-bottom: 20px !important;}
+
+    #platform img {width: 100%;}
+
+    #platform p {padding: 0;}
+
+    .contests.blocks .listing, .tab-pane .contests.blocks .listing  {width: 92%; margin: 20px 10px; padding: 20px;}
+
+    .contests.blocks .listing img {width: 100%;}
+
+    .contest-entires-top .entry-details h1 {margin-top: 20px !important; font-size: 1.65em;}
+
+    .contests.blocks .topbar .centered {text-align: left;}
+
+    .contest-entires-top .entry-details .info {padding-bottom: 10px; margin: 0;}
+
+    .contest-entires-top .entry-details .participate {margin-top: 10px;}
+
+    .contest-entires-top .entry-details .text-right {text-align: left;}
+
+    #contest-entries-header {padding: 0; margin: 0;}
+
+    .tab-content .contests.watchers .profile  {width: 100%; margin: 10px 0;}
+
+    .tab-content .contests.watchers .profile p .btn {margin: 0;}
+
+    .contests.blocks .topbar {width: 91%; padding: 10px;}
+
+    .contests.blocks .topbar select {width: 100%;}
+
+    .tab-content .subheader h2, .tab-content .subtitle {font-size: 1em;}
+
+    .tab-content .subheader h2, .tab-content .subheader .text-right {text-align: center;}
+
+    .login-form .block img {display: none;}
+
+    .tab-pane .contests.blocks .section-title {padding: 0 10px;}
+
+    .tab-content .contests.watchers {padding: 20px; margin-left: 0;}
+
+    .contest-upload .inner-blocks {padding: 10px 30px; padding-bottom: 20px;}
+
+    .contest-upload .inner-blocks input {margin-left: 0; margin-bottom: 10px;}
+
+    .contest-upload.movenext {margin-left: 0;}
+
+    .contest-upload .inner-blocks .plan {width: 100%; margin: 20px 0;}
+
+    .contest-upload.pricing .inner-blocks .plan p .btn {margin-left: -10px; margin-bottom: 10px;}
+
+    #step h6 {padding-top: 20px;}
+
+    #platform.design-main {padding-top: 30px !important;}
+
+    #platform.design-main h1 {margin-top: 0;}
+
+    #portfolio.design-main .designs {margin-bottom: 20px;}
+
+    #slogan {margin-left: 15px; margin-right: 15px;}
+
+    .tab-pane .project-profile {text-align: center; margin-bottom: 15px; margin-right: 0;}
+
+    .contest-profile-top .details.projects {padding-left: 10px;}
+
+    .contest-profile-top .details.projects {margin-top: -40px;}
+
+    #inner-block.discussion h1 {text-align: center;}
+
+    #inner-block.discussion .thread .comment {margin: 0 30px;}
+
+    #inner-block.discussion .thread .shout, #inner-block.discussion .thread .shout-2 {display: none;}
+
+    #inner-block.discussion .thread {background-position: center;}
+
+    #inner-block.discussion .lowest-level {display: none;}
+
+    #inner-block.discuss.contest-detailed .thread {background-position: center; text-align: center;}
+
+    #inner-block.discussion .thread .profile-pic, #inner-block.discuss.contest-detailed .discuss .profile-pic {margin-bottom: 15px; text-align: center;}
+
+    #inner-block.discuss-detail.header .blocks {padding-bottom: 40px; text-align: center;}
+
+    #inner-block.discuss.contest-detailed .entry-pic img {margin-left: 0;}
+
+    .contests.blocks .topbar .check {margin: 15px 10px; }
+
+    .contests.blocks .listing.designer-page {width: 91%;}
+
+    .contests.blocks .listing.designer-page .profile .btn {margin-left: 0; width: 100%;}
+
+    .contests.blocks .listing.designer-page .content  {width: 100%; border: 1px solid #e9e9e9;}
+
+    .contests.blocks .listing.designer-page .content.last  {border-bottom: 1px solid #e9e9e9;}
+
+    .contests.blocks .listing.designer-page .content .skills {margin-left: 0;}
+
+    .contests.blocks .listing.designer-page .content .panel-default > .panel-heading table td.blue {font-size: 1em;}
+
+    .contests.blocks .listing.designer-page .arr {margin: 0 auto; text-align: center; float: none; padding-bottom: 0;}
+
+    .contests.blocks .listing.designer-page .content h1 a {font-size: 0.68em; margin-left: 0;}
+
+    #inner-block.contest-start {padding-top: 30px;}
+
+    .contest-upload .inner-blocks .or.big {padding-top: 0;}
+
+    .contest-profile-top.mob .data-left {text-align: left; padding: 0 5px;}
+
+    .contest-profile-top.mob .data-right {text-align: right; padding: 0 5px;}
+
+    .contest-profile-top.mob .large {font-size: 1.45em;}
+
+    .pagination > li > a, .pagination > li > span {padding: 5px 10px;}
+
+    .contest-upload .inner-blocks h3 {margin-bottom: 5px;}
+
+    #headerwrap.designer-page {padding-bottom: 40px;}
+
+    #inner-block.discuss-detail.header .blocks .navigation a {margin-left: -10px;}
+
+    .contest-upload h1 {font-size: 0.82em;}
+
+    .contest-upload .inner-blocks h2 {padding: 10px 0;}
+
+    #inner-block.discuss.contest-detailed .thread .comment {border: 1px solid #d9d9d9; background: #fff; margin: 0 10px; }
+
+
+    #myTab li {max-width: 33%; text-align: center; padding: 0;}
+    #myTab li a { padding: 20px 0;}
+    .tab-container .nav > li > a {border: 0;}
+    #myTab li a:hover {border: 1px solid #fff; border-bottom: 2px solid #47adc7;}
+    #myTab .active a {border: 1px solid #fff; border-bottom: 2px solid #47adc7;}
+
+    #portfolio.tab-container .nav-tabs li {width: 100%;}
+
+    #portfolio.design-main.landing h1 {padding-top: 0; margin-top: 0;}
+
+    #portfolio.design-main .designs.landing .btn  {margin-bottom: 20px;}
+
+    .contests.blocks .listing.designer-page .content .panel-default > .panel-heading table td {font-size: 1.15em;}
+
+    .contests.blocks .listing.designer-page .content .panel-default > .panel-heading table td.blue {font-size: 1.65em;}
+
+    .contest-upload .inner-blocks .plan p {text-align: center;}
+
+    #newsletter .social {margin-left: 0;margin-top: 25px;text-align: center;}
+
+    #newsletter .social a {width: 34px; height: 34px;}
+
+    .modal-dialog {width: 100%;}
+
+    .modal-title span {display: none;}
+
+    .modal-body .profile {text-align: center;}
+
+    .modal-body p {line-height: 18px;}
+
+    .modal-body .stats .btn.maroon {width: 100%; margin-left: 0; margin-top: 10px;}
+
+    .modal-footer {text-align: center;}
+
+    .modal-footer .btn {width: 100%;}
+
+    .tab-content .personal-project {width: auto; margin: 15px;}
+
+    .tab-content .personal-project .details, .tab-content .personal-project .profile, .personal-project .profile-comment {text-align: center;}
+
+    .personal-project .profile {margin-top: 15px;}
+
+    .tab-content .personal-project .details-comment .form-control {width: 100%; margin-bottom: 10px;}
+
+    #inner-block.discussion .thread .comment .submitted p {text-align: center;}
+
+    .pagination a {font-size: 0.82em;}
+
+    .tab-content .personal-project.designer-timeline .respect {line-height: 0;}
+
+    .tab-content .personal-project.designer-timeline .respect.text-right {text-align: left;}
+
+    .tab-content .update-status p {margin-bottom: 10px;}
+
+    .tab-content .update-status p a {margin-right: 3px; font-weight: 300; font-size: 0.82em;}
+
+    .tab-content .personal-project.designer-timeline .view-all {text-align: center;}
+
+    .tab-content .update-status.highlighted input {width: 100%; margin-bottom: 10px;}
+
+    .tab-content .update-status.highlighted .btn {width: 100%; margin-left: 0; margin-top: 10px; display: none;}
+
+    .tab-content .timeline-content-update {border-bottom: 1px dashed #c0c0c0;}
+
+    .tab-content .timeline-content {border-bottom: 1px solid #c0c0c0;}
+
+    .tab-content .designer-updates.timelines {margin: 0 auto;}
+
+    .tab-content .designer-updates p {text-align: left; padding-left: 10px;}
+
+    .tab-content .designer-updates {padding-bottom: 0;}
+
+    #inner-block.discussion .thread .profile-pic-comment {text-align: center;}
+
+    #inner-block.discussion .thread .comment h2 {text-align: center;}
+
+    #inner-block.discussion .thread .comment .time {margin: 0;}
+
+    /*#platform .btn {padding: 15px 10px; min-width: 60px; font-size: 0.74em !important; display: inline-block;}*/
+
+
+
+
+
+ /* dashboard style */
+    
+#dashboard .home {margin: 0 5px;}   
+
+#dashboard .home .right-panel .content .manage-category.inbox td {padding: 5px;}
+
+#dashboard .home .right-panel .content .inboxbar .text-right {text-align: left;}
+
+#dashboard .home .right-panel .content ul li {font-size: 0.78em;}
+
+#dashboard .home .right-panel .content .folio {width: 94% !important;}
+
+}
+
+@media only screen and (max-width: 800px) {
+    .users .nav {
+        position: absolute;
+        right: 0;
+        top: -40px;
+    }
+
+    /*#myTab li {width: auto; text-align: center; padding: 0; font-size: 0.88em;}*/
+
+    #sub-nav ul li {margin: 0;}
+
+    #headerwrap h1 {margin-top: 130px;}
+    
+    #featured p {padding: 0 5px;}
+
+    #platform h1 {margin-top: 0;}
+
+    .login-form {margin: 0 5px; padding: 30px;}
+
+    .login-form .socialconnect .text-right {text-align: left;}
+
+    .login-form .sep {min-height: 450px;}
+
+    .login-form .blue {text-align: center; font-size: 1.25em;}
+
+    #platform img {width: 100%;}
+
+    #platform .btn {min-width: 90px; font-size: 0.86em; display: inline-block;}
+
+    .contest-entires-top .entry-details h1 {margin-top: 0;}
+
+    #newsletter .social {margin-left: 0;}
+
+    .tab-content .personal-project .profile-comment img {width: 40px; height: 40px;}
+
+}
